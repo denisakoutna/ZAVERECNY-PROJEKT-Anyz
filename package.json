@@ -1,0 +1,16 @@
+{
+  "name": "zaverecny-projekt-anyz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "Denisa Koutná",
+  "license": "ISC",
+  "description": "Kodérka kurz 2023 - závěrečný projekt Anýz",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

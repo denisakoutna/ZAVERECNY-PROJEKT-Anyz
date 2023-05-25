@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANÝZ | bistro_kavárna</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+<!--HEADER -->
+
+<header class="header">
+    <a class="header__logo-odkaz" href="/">
+        <img class="header__logo" src="images/ANYZ_logo03.png" alt="Logo Anýzu." height="70px" width="auto">
+    </a>
+
+    <nav class="menu">
+        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+
+        <label for="menu-checkbox" class="menu__toggler">☰</label>
+
+        <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="/" >Úvod</a></li>
+            <li class="menu__item"><a class="menu__link" href="/onas/" >O nás</a></li>
+            <li class="menu__item"><a class="menu__link" href="/nabidka/" >Nabídka</a></li>
+            <li class="menu__item"><a class="menu__link" href="/kontakt/" >Kontakt</a></li>
+            <li class="menu__item"><a class="menu__link" href="/galerie/" >Galerie</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+ 
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANÝZ | bistro_kavárna</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+HEADER 
+
+<header class="header">
+    <a class="header__logo-odkaz" href="/">
+        <img class="header__logo" src="images/ANYZ_logo03.png" alt="Logo Anýzu." height="70px" width="auto">
+    </a>
+
+    <nav class="menu">
+        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+
+        <label for="menu-checkbox" class="menu__toggler">☰</label>
+
+        <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="/" >Úvod</a></li>
+            <li class="menu__item"><a class="menu__link" href="/onas/" >O nás</a></li>
+            <li class="menu__item"><a class="menu__link" href="/nabidka/" >Nabídka</a></li>
+            <li class="menu__item"><a class="menu__link" href="/kontakt/" >Kontakt</a></li>
+            <li class="menu__item"><a class="menu__link" href="/galerie/" >Galerie</a></li>
+        </ul>
+    </nav>
+</header>
+-->
+
+<!-- NABÍDKA JÍDEL -->
+
+<section class="meals">
+
+    <div class="meals__introduction">
+        <h1 class="meals__title">Naše nabídka</h1>
+
+        <p class="meals__text">Zde si můžete prohlédnout, co pro vás zaručeně vždy připravíme.
+        Kouněte se na nápojový lístek nebo nabídku jídel.</p>
+    </div>
+
+     <!-- nápojový lístek -->
+
+     <div class="drinks">
+
+        <h2 class="drinks__title">NÁPOJOVÝ LÍSTEK</h2>
+
+        <div class="drinks_flexcontent">
+            <img class="drinks__espresso-image" src="/images/espresso.jpg" alt="Espresso">
+            <img class="drinks__lungo-image" src="/images/lungo.jpg" alt="Lungo">
+            <img class="drinks__cappucino-image" src="/images/cappucino.jpg" alt="Cappucino">
+            <img class="drinks__flatwhite-image" src="/images/flatwhite.jpg" alt="Flat white">
+            <img class="drinks__cafelatte-image" src="/images/latte.jpg" alt="Café latté">
+        </div>
+        
+            <h3 class="drinks__coffee">Nabídka kávy</h3>
+
+        
+    
+            <table class="drinks__table">
+
+                <tr>
+                    <td>Espresso</td>
+                    <td>40 Kč</td>
+                </tr>
+
+                <tr>
+                    <td>Espresso lungo</td>
+                    <td>45 Kč</td>
+                </tr>
+
+                <tr>
+                    <td>Cappucino</td>
+                    <td>65 Kč</td>
+                </tr>
+
+                <tr>
+                    <td>Flat white</td>
+                    <td>80 Kč</td>
+                </tr>
+
+                <tr>
+                    <td>Café latté</td>
+                    <td>70 Kč</td>
+                </tr>
+
+            </table>
+
+       
+
+            <p class="drinks__text"><i>*Čaje, limo, speciální kávové nápoje, 
+            alko i nealko si u nás můžete dát také - dle sezónní nabídky, kterou najdete 
+            uvedenou u nás v bistru.</i></p>
+    </div>
+
+
+   <!--jídelní lístek -->
+
+    
+
+    <div class="breakfasts">
+       
+        <h2 class="mealoffer">JÍDELNÍ LÍSTEK</h2>
+
+        <h3 class="breakfasts__title">Snídaně</h3>
+       
+        <p class="breakfasts__time"><i>Snídaně podáváme každý den do 11 hodin.</i></p>
+
+        <div class="breakfasts__flexcontent">
+
+            <div class="breakfasts__image-wrapper">
+                <img class="breakfasts__image" src="/images/acaibowl.jpg" alt="Snídaně" width="auto" height="auto">
+            </div>
+
+            <div class="breakfasts__text">
+                <p class="breakfasts__text-inside">
+                    <strong>MÍCHANÁ VAJÍČKA</strong><br>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+                    ALERGENY: 1, 2<br>
+                    110 Kč
+                </p>
+                    
+                <p class="breakfasts__text-inside">
+                <strong>VEJCE BENEDIKT</strong><br>
+                    Nisi ut aliquid ex ea commodi consequatur.<br>
+                    ALERGENY: 1, 2<br>
+                    130 Kč
+                </p>
+                
+                <p class="breakfasts__text-inside">
+                    <strong>OVESNÁ KAŠE</strong><br>
+                    Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.<br>
+                    ALERGENY: 1, 2, 7<br>
+                    90 Kč
+                </p>
+
+                <p class="breakfasts__text-inside">
+                    <strong>ACAI BOWL</strong><br>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nisi ut aliquid ex ea commodi consequatur.<br>
+                    ALERGENY: 1<br>
+                    125 Kč
+                </p>
+            </div>
+            
+    </div>
+
+
+    <div class="maincourses">
+
+        
+        <h3 class="maincourses__title">Hlavní jídla</h3>
+
+        <p class="maincourses__introduction"><i>Hlavní jídla podáváme od 11 hodin.</i></p>
+        
+
+        <div class="maincourses__flexcontent">
+
+            <div class="maincourses__image-wrapper">
+                <img class="maincourses__image" src="/images/noodles.jpg" alt="Hlavní jídlo" width="auto" height="auto">
+            </div>
+
+            <div class="maincourses__text">
+
+                <p  class="maincourses__text-inside">
+                    <strong>POLÉVKA</strong><br>
+                    Polévka dle denní nabídky.<br>
+                    55 Kč
+                </p>
+                
+                <p  class="maincourses__text-inside">
+                    <strong>LOREM IPSUM</strong><br>
+                    Nisi ut aliquid ex ea commodi consequatur.<br>
+                    ALERGENY: 1, 2<br>
+                    170 Kč
+                </p>
+                
+                <p  class="maincourses__text-inside">
+                    <strong>DOLOR SIT AMET</strong><br>
+                    Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.<br>
+                    ALERGENY: 1, 2, 7<br>
+                    150 Kč
+                </p>
+                
+                <p  class="maincourses__text-inside">
+                    <strong>CONSECTETUER</strong><br>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nisi ut aliquid ex ea commodi consequatur.<br>
+                    ALERGENY: 1<br>
+                    185 Kč
+                </p>
+
+            </div>
+
+         </div>
+
+    </div>
+
+    <div class="snacks">
+
+        <h3  class="snacks__title">Svačinky</h3>
+
+            <p class="snacks__time"><i>Podáváme kdykoliv. :)</i></p>
+
+            <div class="snacks__flexcontent">
+
+
+                <div class="snacks__image-wrapper">
+                     <img class="snacks__image" src="/images/vege-sandwich.jpg" alt="Svačinka" height="auto" width="auto">
+                </div>
+
+
+            <div class="snacks__text">
+                <p class="snacks__text-inside">
+                    <strong>MAURIS SUSCIPIT</strong><br>
+                    Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.<br>
+                    ALERGENY: 1, 2, 7<br>
+                    75 Kč
+                </p>
+
+                <p class="snacks__text-inside">
+                    <strong>NISI UT ALIQUID</strong><br>
+                    Nisi ut aliquid ex ea commodi consequatur.<br>
+                    ALERGENY: 1, 2<br>
+                    90 Kč
+                </p>
+
+                <p class="snacks__text-inside">
+                    <strong>CONSEQUATUR</strong><br>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nisi ut aliquid ex ea commodi consequatur.<br>
+                    ALERGENY: 1<br>
+                    115 Kč
+                </p>
+
+                <p class="snacks__text-inside">
+                    <strong>ADIPISCING ELIT</strong><br>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+                    ALERGENY: 1, 2<br>
+                    105 Kč
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="desserts">
+        <h3 class="desserts__title">Dezerty</h3>
+
+            <p class="desserts__dayoffer"><i>Dezerty si u nás můžete vybrat v bistru dle denní nabídky.</i></p>
+
+            <div class="desserts__images">
+                <img class="desserts__image-cupcake" src="/images/cheryy-cupcake.jpg" alt="Dezert1">
+                <img class="desserts__image-cheesecake" src="/images/blueberry-cheesecake.jpg" alt="Dezert2">
+                <img class="desserts__image-brownies" src="/images/brownies.jpg" alt="Dezert3">
+            </div>
+   
+    </div>
+
+</section>
+
+<!-- FOOTER 
+
+<footer class="footer">
+
+    <ul class="footer__menu-link">
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/" >Úvod</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/onas/" >O nás</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/nabidka/" >Nabídka</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/kontakt/" >Kontakt</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/galerie/" >Galerie</a></li>
+    </ul>
+
+    <p class="footer__copyright">© 2023 | ANÝZ bistro_kavárna</p>
+
+</footer>
+
+
+</body>
+</html>
+-->
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <ul class="footer__menu-link">
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/" >Úvod</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/onas/" >O nás</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/nabidka/" >Nabídka</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/kontakt/" >Kontakt</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="/galerie/" >Galerie</a></li>
+    </ul>
+
+    <p class="footer__copyright">© 2023 | ANÝZ bistro_kavárna</p>
+
+</footer>
+
+
+</body>
+</html>
